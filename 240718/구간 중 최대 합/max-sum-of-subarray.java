@@ -9,7 +9,7 @@ public class Main {
             list.add(sc.nextInt());
         }
         int maxVal=Integer.MIN_VALUE;
-        for(int i=0;i<n-k;i++){
+        for(int i=0;i<n-k+1;i++){
             int result=0;
             for(int j=0;j<k;j++){
                 result+=list.get(i+j);
