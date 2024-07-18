@@ -55,7 +55,7 @@ public class Main {
                 }else{
                     if(whiteWinVertical(i,j,board)||blackWinVertical(i,j,board)){
                         System.out.println(board.get(i).get(j));
-                        System.out.println(i+1+" "+(j+3));
+                        System.out.println(i+3+" "+(j+1));
                         return;
                     }
                 }
